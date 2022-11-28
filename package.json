@@ -1,0 +1,18 @@
+{
+  "name": "enterpriseVue3docs",
+  "version": "0.0.1",
+  "description": "documentation for Vue3 enterprise size solution template",
+  "main": "index.js",
+  "author": "luckylooke",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.29",
+    "vue": "^3.2.45"
+  }
+}
